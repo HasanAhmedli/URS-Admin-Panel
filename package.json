@@ -1,0 +1,51 @@
+{
+  "name": "ursadmin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^35.4.0",
+    "@ckeditor/ckeditor5-react": "^5.0.6",
+    "@mdi/js": "^7.1.96",
+    "axios": "^1.2.5",
+    "bootstrap": "^5.2.3",
+    "draft-js": "^0.11.7",
+    "draftjs-to-html": "^0.9.1",
+    "https-browserify": "^1.0.0",
+    "install": "^0.13.0",
+    "latest-version": "^7.0.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "^18.2.0",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-icons": "^4.7.1",
+    "react-router": "^6.8.0",
+    "react-router-dom": "^6.8.0",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "prettier": "2.8.1"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

@@ -1,0 +1,58 @@
+@font-face {
+    font-family: poppinsLight;
+    src: url('../../font//Poppins-Light.ttf');
+}
+
+.URSsocialMedia {
+    padding: 20px;
+    border-top: 1px solid #f3f3f3;
+    margin-top: 20px;
+}
+
+.URSsocialMedia .URSsocialMediaForm div {
+    width: 100%;
+}
+
+.URSsocialMedia .URSsocialMediaForm .socialMediaUrl {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #f3f3f3;
+    transition: All 0.4s;
+    margin-bottom: 20px;
+}
+
+.URSsocialMedia .URSsocialMediaForm .socialMediaUrl:focus {
+    border: 1px solid #fcba00;
+}
+
+.URSsocialMedia .URSsocialMediaForm label {
+    font-family: poppinsLight;
+    margin-bottom: 10px;
+}
+
+.URSsocialMedia .URSsocialMediaForm .addButton {
+    font-family: poppinsLight;
+    border: 1px solid #fcba00;
+    padding: 14.5px 30px;
+    color: #fff;
+    transition: All 0.4s;
+    background-color: #fcba00;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.URSsocialMedia .URSsocialMediaForm .addButton:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.socialMediaInputAndAddButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.socialMediaInputAndAddButton div:last-child {
+    width: fit-content;
+}
